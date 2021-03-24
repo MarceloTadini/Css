@@ -14,3 +14,19 @@
     font-size: 1.75rem;
     font-weight: 200;
 }
+
+@media screen and (max-width: 480px){
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+
+    .sobre__descricao{
+        font-size: 1.3rem;
+    }
+}
+
+
