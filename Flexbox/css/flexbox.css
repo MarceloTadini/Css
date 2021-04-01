@@ -10,6 +10,13 @@
     display: flex;
 }
 
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap; /* Depois que passar de 250px, vai quebrar a coluna */
+}
+
 .rodapePrincipal-patrocinadores .container{
     display: flex;
     justify-content: space-between;
