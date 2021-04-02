@@ -1,0 +1,79 @@
+.cabecalhoPrincipal .container{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+    margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n){
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left: 0;
+}
+
+.videoSobre .container{
+    display: flex;
+    
+}
+
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.videoSobre-video{
+    flex-grow: 1;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap; /* Depois que passar de 250px, vai quebrar a coluna */
+
+    /*flex-flow: column wrap; soma de 'flex-direction' e 'flex-wrap'*/
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%; /* Aumentando a largura para usar o justify content */
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
