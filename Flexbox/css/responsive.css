@@ -30,6 +30,14 @@
         margin-left: 1%;
     }
 
+    .videoSobre .container{
+        flex-direction: column;
+    }
+    .videoSobre-video{
+        flex-shrink: 2;
+        margin: 0 auto;
+    }
+
     .rodapePrincipal-navMap-list{
         height: auto;
     }
