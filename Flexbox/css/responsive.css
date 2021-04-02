@@ -10,6 +10,10 @@
         flex-direction: column;
     }
 
+    .cabecalhoPrincipal-nav-link-app{
+        order: -1; /* Por padrão, todos os flex-items tem 'order' = 0, portanto, 'order' -1 faz ele ser o primeiro da lista*/
+    }
+
     .conteudoPrincipal-cursos{
         flex-direction: column;
     }
